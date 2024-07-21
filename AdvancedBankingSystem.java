@@ -9,7 +9,7 @@ class Account {
     private List<String> transactionHistory;
     private double overdraftLimit;
     private static final double INTEREST_RATE = 0.02; // 2% annual interest
-
+ 
     public Account(String accountNumber, String accountHolderName, String accountType) {
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
