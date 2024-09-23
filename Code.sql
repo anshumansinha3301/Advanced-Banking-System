@@ -15,3 +15,12 @@ INSERT INTO Students (Student_id, Student_name, marks) VALUES (5, 'Ashish', 90);
 
 -- Selecting data to verify insertion
 SELECT * FROM Students;
+
+
+
+--INSERT INTO employees (employee_id, name, department_id, salary) VALUES
+(1, 'Alice', 1, 50000),
+(2, 'Bob', 2, 45000),
+(3, 'Charlie', 1, 35000), -- Now this satisfies the CHECK constraint
+(4, 'David', 3, 60000),
+(5, 'Eve', 4, 70000);
